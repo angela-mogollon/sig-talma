@@ -541,6 +541,89 @@
     </div>
 </section>
 
+
+<section id="peligros" class="relative py-12 px-4 md:px-20 overflow-hidden bg-cover bg-center bg-fixed"
+    style="background-image: url('https://www.talma.com.co/ckfinder/talma_col_files/images/_AFS3234.jpg');">
+    
+    <div class="absolute inset-0 bg-gradient-to-br from-talma-navy via-talma-navy to-emerald-950/50 backdrop-blur-md z-0"></div>
+
+    <div class="max-w-5xl mx-auto relative z-10">
+
+        <!-- Contenedor de matriz y recuadro de niveles de consecuencia -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center mb-8">
+            <!-- Matriz de peligros -->
+            <div class="lg:col-span-8 flex-1 min-w-0">
+        
+        <div class="flex items-center justify-between mb-8 pb-2 border-b border-white/10">
+            <div>
+                <span class="text-talma-green font-bold text-xs tracking-widest uppercase block">Estructura</span>
+                <h2 class="text-white text-2xl md:text-3xl font-bold">Matriz de peligros</h2>
+            </div>
+            <span class="text-[10px] text-talma-gray hidden sm:block uppercase tracking-tighter">PELIGROS-TALMA</span>
+        </div>
+
+        <div class="max-w-4xl mx-auto bg-white/5 backdrop-blur-xl rounded-2xl p-4 border border-white/10 shadow-2xl">
+            
+            <div class="bg-white/5 backdrop-blur-sm rounded-3xl p-6 md:p-10 border border-emerald-800/30 shadow-2xl relative group">
+                <div class="zoom-trigger group/img relative rounded-xl overflow-hidden bg-talma-navy/40 cursor-zoom-in border border-white/5">
+                    <img 
+                        src="Matriz Peligros.png" 
+                        alt="Matriz de peligros" 
+                        class="w-full h-auto max-h-[400px] object-contain mx-auto transition-transform duration-500 group-hover/img:scale-105"
+                    >
+                    <div class="absolute inset-0 bg-talma-navy/20 opacity-0 group-hover/img:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
+                        <div class="bg-talma-green text-white text-xs font-bold px-4 py-2 rounded-full shadow-lg flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                            </svg>
+                            AMPLIAR MATRIZ
+                        </div>
+                    </div>
+                </div>
+                <p class="mt-4 text-center text-talma-gray text-xs italic">
+                    Esta matriz define un modelo claro sobre los peligros que pueden presentarse al recurso humano de la compañia, buscando principalmente dar una pauta de mitigación del peligro presentado y la urgencia con la que tiene que ser tratado.
+                </p>
+                <div class="absolute -bottom-10 -left-10 w-40 h-40 bg-talma-green/10 rounded-full blur-3xl pointer-events-none"></div>
+            </div>
+        </div>                    </div>
+            <!-- Recuadro de Niveles de Consecuencia -->
+            <div class="lg:col-span-4 w-full lg:w-auto bg-white/5 backdrop-blur-sm rounded-3xl p-6 md:p-10 border border-emerald-800/30 shadow-2xl flex flex-col gap-6 mt-8 lg:mt-0 relative">
+                <h4 class="text-talma-green text-lg font-bold mb-2 text-center lg:text-left">Niveles de Consecuencia</h4>
+                <div class="flex flex-col gap-6">
+                    <div class="flex items-center gap-4 p-4 bg-yellow-400/15 rounded-xl border border-yellow-400/30">
+                        <div class="w-10 h-10 rounded-full bg-yellow-400 border-2 border-yellow-500 flex items-center justify-center shadow-md">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="currentColor" class="text-yellow-400"/></svg>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="text-talma-navy text-base font-extrabold tracking-tight leading-none font-sans">Mejorable</span>
+                            <span class="text-talma-gray text-xs font-medium mt-1">Nivel: <span class="font-bold text-yellow-600">1-100</span></span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 p-4 bg-orange-400/15 rounded-xl border border-orange-400/30">
+                        <div class="w-10 h-10 rounded-full bg-orange-400 border-2 border-orange-500 flex items-center justify-center shadow-md">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="currentColor" class="text-orange-400"/></svg>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="text-talma-navy text-base font-extrabold tracking-tight leading-none font-sans">Corregir</span>
+                            <span class="text-talma-gray text-xs font-medium mt-1">Nivel: <span class="font-bold text-orange-600">101-250</span></span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 p-4 bg-red-500/15 rounded-xl border border-red-500/30">
+                        <div class="w-10 h-10 rounded-full bg-red-500 border-2 border-red-700 flex items-center justify-center shadow-md">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="currentColor" class="text-red-500"/></svg>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="text-red-700 text-base font-extrabold tracking-tight leading-none font-sans">No aceptable</span>
+                            <span class="text-talma-gray text-xs font-medium mt-1">Nivel: <span class="font-bold text-red-700">251+</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="absolute -bottom-10 -right-10 w-32 h-32 bg-talma-green/10 rounded-full blur-3xl pointer-events-none"></div>
+            </div>
+                </div>
+    </div>
+</section>
+    
 <footer class="bg-talma-navy pt-16 pb-8 px-4 md:px-20 border-t border-white/10 relative overflow-hidden">
     <div class="absolute -right-20 -bottom-20 opacity-[0.03] pointer-events-none">
         <span class="text-[300px] font-black text-white leading-none">T</span>
